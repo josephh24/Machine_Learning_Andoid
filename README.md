@@ -1,4 +1,4 @@
-# Machine_Learning_Andoid
+# Machine_Learning_Android
 clasificacor de vinos usando machine learning en python y la libreria de tensoflow para crear una aplicacion en android studio
 
 ## url de la base de datos
