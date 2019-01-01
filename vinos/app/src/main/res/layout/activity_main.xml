@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alcohol:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alcohol"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malic acid:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Malic acid"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ash:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ash"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alcalinity of ash:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alcalinity of ash"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnesium:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Magnesium"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total phenols:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Total phenols"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flavanoids:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Flavanoids"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nonflavanoid phenols:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nonflavanoid phenols"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proanthocyanins:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Proanthocyanins"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color intensity:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Color intensity"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hue:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Hue"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diluited wines:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Diluited wines"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proline:"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/f13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Proline"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="predecir"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/collage" />
+
+</LinearLayout>
